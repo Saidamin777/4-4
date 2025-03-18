@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+}
+
+:root {
+    --kok: rgba(54, 83, 107, 1);
+}
+
+.header-ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 900px;
+    margin-top: -30px;
+}
+
+.header-logo {
+    margin-top: 45px;
+    margin-left: 165px;
+}
+
+.header-items {
+    color: var(--kok);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.menu {
+    margin-left: 1000px;
+    margin-top: -30px;
+    display: none;
+}
+
+.header-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1200px;
+    margin-top: -30px;
+    border: none;
+    outline: none;
+    width: 173px;
+    height: 48px;
+    background-color: rgba(186, 66, 112, 1);
+    display: flex;
+    color: white;
+    border-radius: 30px;
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--kok);
+    width: 540px;
+    margin-left: 160px;
+    margin-top: -600px;
+    font-size: 72px;
+}
+
+.section1-phone {
+    width: 455px;
+    height: 700px;
+    margin-left: 900px;
+}
+
+.section2-text {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    width: 445px;
+    margin-top: 24px;
+    color: var(--kok);
+}
+
+.section2-items {
+    font-family: DM Serif Display;
+    color: var(--kok);
+    font-weight: 400;
+    font-size: 48px;
+}
+
+body {
+    background-color: rgba(237, 243, 248, 1);
+}
+
+.section2-box {
+    display: flex;
+    margin-top: 400px;
+    margin-left: 160px;
+    align-items: center;
+}
+
+.text-trade1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--kok);
+}
+
+.money {
+    margin-left: 20px;
+}
+
+.trade-father {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    gap: 281px;
+}
+footer{
+    background-color: rgba(27, 38, 47, 1);
+    height: 100px;
+    margin-top: 128px;
+}
+.footer-items {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+.footer-ul{
+    display: flex;
+    gap: 40px;
+    margin-top: -30px;
+    margin-left: 363px;
+}
+.imgs-box{
+    margin-left: 1155px;
+    display: flex;
+    gap: 20px;
+    margin-top: -20px;
+}
+.footer-logo{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.fon{
+    position: absolute;
+    right: 0;
+    margin-top: -65px;
+}
+@media only screen and (max-width:768px) {
+    .header-logo {
+        width: 135px;
+        height: 38px;
+        margin-left: 39px;
+    }
+
+    .header-ul {
+        margin-left: 298px;
+        font-size: 20px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .header-button {
+        margin-left: 530px;
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-top: 600px;
+        margin-left: 150px;
+    }
+
+    .section1-phone {
+        margin-left: 200px;
+    }
+
+    .section1-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2-box {
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .section2-text {
+        width: 573px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .section2-items {
+        display: flex;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .money{
+        width: 88px;
+    }
+    .trade-father{
+        display: flex;
+        gap: 78px;
+        margin-left: 50px;
+    }
+    .text-trade1{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .fon{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    .header-logo {
+        width: 135px;
+        height: 38px;
+    }
+
+    .header-items {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .section1-phone {
+        width: 150px;
+        height: 240px;
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+
+    h1 {
+        font-size: 32px;
+        width: 327px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: 400px;
+        margin-top: 0px;
+    }
+
+    .section2-box {
+        margin-top: 200px;
+        margin-left: 170px;
+    }
+
+    .section2-text {
+        font-size: 15px;
+        width: 328px;
+    }
+
+    .section2-items {
+        font-size: 36px;
+    }
+
+    .mini-box {
+        margin-left: 0px;
+    }
+    .trade-father{
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+    }
+    .footer-ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 300px;
+    }
+    footer{
+        width: 100%;
+        height: 40%;
+    }
+    .footer-logo{
+        margin-left: 220px;
+    }
+    .imgs-box{
+        margin-left: 250px;
+        margin-top: 70px;
+    }
+}
